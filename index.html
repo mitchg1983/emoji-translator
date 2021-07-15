@@ -5,10 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Emoji Translator</title>
         <link href="./emoji.png" rel="shortcut icon" type="image/jpg"/>
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <input type="text" id="translator-input">
-        <button id="submit-button">Submit</button>
+        <!-- <button id="submit-button">Submit</button> -->
+        <a id="helperA">How do I use this?</a>
+        <ul class="helper" id="helper">
+<li class="list">Encode -    This will display an emoji for every letter entered.</li>
+<li class="list">Translate - This will attempt to find an emoji that matches any words entered.</li>
+<li class="list">Madlib -    This will display a random emoji, if one exists, that is similar to any words entered.</li>
+<li class="list">Search -    This will display any & all emojis, that match the words entered.</li>
+<li class="list">Random -    This will choose a random translate method for any words entered.</li>
+        </ul>
         <form>
             <p>How would you like to translate?</p>
             <div class="radio-button-section">
